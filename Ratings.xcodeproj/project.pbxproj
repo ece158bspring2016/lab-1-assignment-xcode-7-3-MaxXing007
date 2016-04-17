@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		501A417B1CC4505800B3F04E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501A417A1CC4505800B3F04E /* ProfileViewController.swift */; };
 		8244048C1BA2816A005DDDD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8244048B1BA2816A005DDDD7 /* AppDelegate.swift */; };
 		824404911BA2816A005DDDD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8244048F1BA2816A005DDDD7 /* Main.storyboard */; };
 		824404931BA2816A005DDDD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824404921BA2816A005DDDD7 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		501A417A1CC4505800B3F04E /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		824404881BA2816A005DDDD7 /* Ratings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ratings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8244048B1BA2816A005DDDD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		824404901BA2816A005DDDD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				8244048B1BA2816A005DDDD7 /* AppDelegate.swift */,
 				8244049D1BA3BB4A005DDDD7 /* PlayersViewController.swift */,
+				501A417A1CC4505800B3F04E /* ProfileViewController.swift */,
 				824404A31BA3BE88005DDDD7 /* PlayerCell.swift */,
 				824404A51BA3C699005DDDD7 /* Model */,
 				8244048F1BA2816A005DDDD7 /* Main.storyboard */,
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				501A417B1CC4505800B3F04E /* ProfileViewController.swift in Sources */,
 				824404A41BA3BE88005DDDD7 /* PlayerCell.swift in Sources */,
 				824404A01BA3BB79005DDDD7 /* Player.swift in Sources */,
 				8244048C1BA2816A005DDDD7 /* AppDelegate.swift in Sources */,

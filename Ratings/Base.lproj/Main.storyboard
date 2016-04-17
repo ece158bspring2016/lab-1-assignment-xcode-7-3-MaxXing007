@@ -110,6 +110,7 @@
                                     <outlet property="gameLabel" destination="dSo-Ls-uVG" id="zT2-k4-rXG"/>
                                     <outlet property="nameLabel" destination="qU2-sC-RPL" id="j8p-mM-lkq"/>
                                     <outlet property="ratingImageView" destination="TZJ-mw-gpU" id="rLK-xL-1dZ"/>
+                                    <segue destination="qtZ-df-hYF" kind="show" identifier="pictureSegue" id="8hZ-Gy-1bc"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -123,6 +124,33 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LaV-hn-5hX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="834.5" y="73.5"/>
+        </scene>
+        <!--Profile View Controller-->
+        <scene sceneID="Cx9-1W-vV2">
+            <objects>
+                <viewController id="qtZ-df-hYF" customClass="ProfileViewController" customModule="Ratings" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Uhl-iA-mcf"/>
+                        <viewControllerLayoutGuide type="bottom" id="M48-J9-aGR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2eO-fQ-Rrx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uhm-ry-KBi">
+                                <rect key="frame" x="34" y="106" width="306" height="315"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="profilePic" destination="Uhm-ry-KBi" id="to6-bX-HUF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AvN-Z2-pOL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1387.5" y="78.5"/>
         </scene>
         <!--Players-->
         <scene sceneID="hmV-gF-SBk">

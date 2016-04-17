@@ -7,10 +7,14 @@
 
 import UIKit
 
+
 class PlayersViewController: UITableViewController {
   
+    
+    var selected:Int!
+    
   var players:[Player] = playersData
-  
+    
   // MARK: - Table view data source
   
   override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -31,4 +35,22 @@ class PlayersViewController: UITableViewController {
       return cell
   }
   
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+      //var selected  = [indexPathfo.row];
+   
+    }
+    
+
+    override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
+        if (segue.identifier == "pictureSegue") {
+            var svc = segue!.destinationViewController as! ProfileViewController;
+            
+            var selectedIndexPath = tableView.indexPathForSelectedRow?.row
+            svc.toPass = selectedIndexPath
+
+        }
+    }
+    
 }
