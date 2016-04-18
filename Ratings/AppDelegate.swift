@@ -1,6 +1,11 @@
 /*
- * Max Xing 2016
- *
+ //
+ //  Ratings
+ //
+ //  Created by Max X on 4/17/16.
+ //  Copyright © 2016 Ray Wenderlich. All rights reserved.
+ //
+
  
  */
 
